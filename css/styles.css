@@ -1,0 +1,30 @@
+.video-container {
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-frame {
+    border-radius: 30px;
+}
+
+.video-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-button {
+    margin: 10px;
+}
+
+.video-progressbar {
+    margin: 10px;
+    flex-grow: 10;
+}
+
+.sound-progressbar {
+    margin: 10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="video-container">
+        <video class="video-frame" src="video/groundhog.mp4" controls></video>
+        <input class="video-progressbar" type="range" value="0" max="100"></input>
+        <div class="video-controls">
+            <img class="video-button" src="img/play.jpg" alt="Play">
+            <img class="video-button" src="img/pause.jpg" alt="Pause">
+            <img class="video-button" src="img/stop.jpg" alt="Stop">
+            <img class="video-button" src="img/rewind.jpg" alt="Rewind">
+            <img class="video-button" src="img/forward.jpg" alt="Forward">
+            <input type="range" class="sound-progressbar" step="0.01" max="1" value="1"></input>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
